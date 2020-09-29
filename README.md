@@ -5,9 +5,11 @@ Here you will find annotated networks for 114 combinations subcluster-pathologic
 
 The name of each network (each combination) is broken down into: full name of the subcluster + pathological condition (i.e. Astrocytes0AD). For each combination, we have three files available:
 
-The file that contains the corrected expression data that has been used to create the network (residuals). The name of this file is decomposed into: network name + "resids" + ".rds"
-The network file that has been created from the residuals. The name of this file is decomposed into: "net" + network name + "." + betavalue + ".it.50.rds"
-The file that contains the functional annotations obtained from the Gene Ontology, KEGG and REACTOME databases. The name of this file is the same as the file name of the network adding "_gprof.csv"
+1. The file that contains the corrected expression data that has been used to create the network (residuals). The name of this file is decomposed into: network name + "resids" + ".rds"
+
+2. The network file that has been created from the residuals. The name of this file is decomposed into: "net" + network name + "." + betavalue + ".it.50.rds"
+
+3. The file that contains the functional annotations obtained from the Gene Ontology, KEGG and REACTOME databases. The name of this file is the same as the file name of the network adding "_gprof.csv"
 
 
 Recommended that you install first CoExpNets
