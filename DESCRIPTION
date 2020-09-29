@@ -1,0 +1,13 @@
+Package: CoExpscROSMAP
+Type: Package
+Title: Single-cell co-expression network suite from ROS/MAP project
+Version: 0.1.0
+Authors@R: c(person("Alicia", "Gómez Pascual", email = "alicia.gomez1@um.es", 
+    role = c("aut", "cre")), person("Juan A.", "Botía Blaya", role = "aut"))
+Description: Here you will find annotated networks for 114 combinations subcluster-pathological condition (AD, NotAD and All). 
+License: Creative Commons
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    CoExpNets
+RoxygenNote: 6.1.1
