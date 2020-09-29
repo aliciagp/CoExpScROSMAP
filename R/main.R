@@ -14,8 +14,8 @@ initDb = function(mandatory=F){
     CoExpNets::addNet(which.one="scROSMAP",
                       tissue=net,
                       netfile=getscROSMAPnet(net),
-                      ctfile=paste0(getscROSMAPnet(net),"_gprof.rds"),
-                      gofile=paste0(getscROSMAPnet(net),"_gprof.rds"),
+                      ctfile=paste0(getscROSMAPnet(net),"_gprof.csv"),
+                      gofile=paste0(getscROSMAPnet(net),"_gprof.csv"),
                       exprdatafile=paste0(the.dir,"/",net,"resids", ".rds"),
                       overwrite=mandatory)
   }
